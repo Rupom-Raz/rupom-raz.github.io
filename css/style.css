@@ -1,0 +1,264 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+/*********************** Home page section start here **************/
+.bg-light{
+    background-color: #202731 !important;
+
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #00a78e;
+    
+    }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.nav-item a{
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+.nav-item a:hover{
+    color: #00a78e !important;
+}
+
+.navbar-brand{
+    color: #00a78e !important;
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 80px;
+}
+.home_page{
+    background-color: #0A0A0A;
+    min-height: 600px;
+}
+.home_text{
+    margin-top: 100px;
+    margin-left: 70px;
+    padding: 20px;
+}
+.hey{
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    font-weight: 800;
+    color:rgba(255, 255, 255, 0.74);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+.name{
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    font-weight: 900;
+    color: #00a78e;
+    line-height: 130px;
+
+}
+.profession{
+    font-family: 'Roboto Slab',;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    color:rgba(255, 255, 255, 0.74);
+    line-height: 60px;
+
+}
+.home_text p{
+    color:rgba(255, 255, 255, 0.74);
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.home_btn{
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+}
+.home_btn:hover{
+    background-color: #00a78e;
+    color: #ffffff;
+    padding: 10px 20px;
+    
+    
+     
+}
+.home_img img{
+    width: 100%; 
+   
+    
+}
+/*********************** Home page section end here **************/
+
+
+/********************** About section start here **************************/
+
+
+.about_section{
+    min-height: 600px;
+    background-color:#0A0A0A;
+}
+.about_img{
+    padding: 50px;
+}
+
+.about_text{
+    padding: 140px 30px 30px 30px;
+    
+}
+
+.about_text h5{
+    font-family: 'Roboto Slab',serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.about_text p{
+    font-family: 'Roboto Slab',serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.icon i{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 70px;
+    transition: .5s ease;
+}
+
+.icon i:hover{
+    transform: scale(1.5);
+    color: #00a78e;
+
+}
+
+/************* About section end here ************/
+
+.services{
+    min-height: 600px;
+    background-color: #0A0A0A; 
+}
+.service_word{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab',serif;
+    position: relative;
+
+    
+}
+.dashed{
+    position: absolute;
+    width:27%;
+    color: #00a78e;
+    border: 2px solid;
+    top: 60px;
+    left: 37%;
+    
+}
+.box{
+    padding: 25px 25px;
+    display: inline inline-block;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.box i{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 60px;
+    padding: 15px;
+    background-color: #00a78e;
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+     
+}
+.box h3{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 80px;  
+}
+.box p{
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+.box:hover{
+    background-color: #00a78e;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    
+}
+/********************** Servicecs end here *********************/
+
+/****************************** Project start here ******************/
+
+.project{
+    min-height: 600px;
+    background-color: #212529;
+    position: relative;
+    
+}
+.project_word{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    
+    
+    
+}
+.slider{
+    margin-top: 100px;
+}
+/****************************** Project end here ******************/
+
+.contact{
+    min-height: 600px;
+    background-color: #0A0A0A;
+    position: relative;
+}
+.contact_word h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab',;
+    position: absolute;
+    top: 36px;
+    left: 41%;
+    
+}
+.dashed{
+    position: absolute;
+    width:27%;
+    color: #00a78e;
+    border: 2px solid;
+    top: 80px;
+    left: 37%;
+    
+}
+.form{
+    margin-top: 200px;
+}
+.btn-primary{
+    background-color: #00a78e !important;
+    border: #00a78e !important;
+}
+
+
+
+
